@@ -31,7 +31,10 @@ h2 {
     flex-direction: row;
 }
 
-
+.flex-container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .scaledImage {
     width: 300px;
