@@ -25,6 +25,9 @@ h2 {
     text-align: center;
 }
 
+section>a {
+    color: red;
+}
 
 .flex-row {
     display: flex;
