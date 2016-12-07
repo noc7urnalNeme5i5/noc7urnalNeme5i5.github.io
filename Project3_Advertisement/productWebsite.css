@@ -31,13 +31,15 @@ h2 {
     flex-direction: row;
 }
 
-.content {
-    padding: 0 50px 50px 50px;
-}
+
 
 .scaledImage {
     width: 300px;
     height: auto;
+}
+
+.content {
+    padding: 0 10px 0 10px;
 }
 
 #imgContainer {
@@ -45,8 +47,8 @@ h2 {
 }
 
 
-@media (min-width 450px) {
+@media (min-width: 1200px) {
     .content {
-        padding: 0 0 0 0;
-    }
+    padding: 0 50px 50px 50px;
+}
 }   
