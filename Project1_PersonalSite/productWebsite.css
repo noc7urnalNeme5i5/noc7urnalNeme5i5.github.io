@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('freaking-moon.png');
+    background-attachment: fixed;
+    background-size: cover;
+    color: lightyellow;
+}
+
+p {
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+} 
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    padding: 0 50px 50px 50px;
+}
+
+.scaledImage {
+    width: 300px;
+    height: auto;
+}
+
+#imgContainer {
+    padding: 0 750px 0 750px;
+}
+
+
+   
